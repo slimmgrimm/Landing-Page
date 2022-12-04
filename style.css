@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+}
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+}
+p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.title {
+    text-align: center;
+}
+.container1, .benefit-container, .container3, .container4 {
+    padding-left: 64px;
+    padding-right: 64px;
+    justify-content: center;
+}
+.container1 {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.ben-info {
+    align-items: center;
+    display: inline-block;
+}
+.benefit-container {
+    display: flex;
+    flex: 1;
+    flex-flow: row wrap;
+
+}
+.benefit {
+    display: flex;
+    width: 300px;
+    align-items: center;
+
+    padding: 24px;
+    gap: 8px;
+}
+.benefit-icon {
+
+    max-width: 150px;
+}
+.benefit-text {
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 200px;
+}
+
+.container3 {
+    background-color: #E5E7EB;
+}
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+.quotesource {
+    display: flex;
+    justify-content: flex-end;
+    color: #1F2937;
+    font-size: 24px;
+    text-emphasis: 700;
+}
+
+.container4 {
+ 
+    display: flex;
+    background-color: #3882f6;
+    gap: 64px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 16px;
+}
